@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索 - 国产精品视频网</title>
+  <meta name="description" content="国产精品视频网全站搜索页面，可按标题、年份、地区、类型、标签查找电影、剧集、动漫、综艺内容。">
+  <meta name="keywords" content="国产精品,国产影视,国产电影,国产剧情,国产综艺,国产动漫,在线观看,高清视频,免费播放,影视剧,电视剧,电影大全,综艺节目,动漫动画,影片搜索,影视搜索">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar page-shell">
+    <a class="brand" href="./index.html" aria-label="国产精品视频网">
+      <span class="brand-mark">🎀</span>
+      <span class="brand-text">国产精品视频网</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a>
+      <a class="nav-link " href="./category-movie.html">电影</a>
+      <a class="nav-link " href="./category-series.html">剧集</a>
+      <a class="nav-link " href="./category-anime.html">动漫</a>
+      <a class="nav-link " href="./category-variety.html">综艺</a>
+      <a class="nav-link " href="./ranking.html">排行榜</a>
+      <a class="nav-link " href="./all-1.html">全部影片</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+    <a class="mobile-link " href="./index.html">首页</a>
+    <a class="mobile-link " href="./category-movie.html">电影</a>
+    <a class="mobile-link " href="./category-series.html">剧集</a>
+    <a class="mobile-link " href="./category-anime.html">动漫</a>
+    <a class="mobile-link " href="./category-variety.html">综艺</a>
+    <a class="mobile-link " href="./ranking.html">排行榜</a>
+    <a class="mobile-link " href="./all-1.html">全部影片</a>
+    <a class="mobile-link active" href="./search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-main">
+  <section class="page-hero page-shell search-hero">
+    <span class="eyebrow">全站搜索</span>
+    <h1>搜索高清影视内容</h1>
+    <p>输入影片标题、地区、年份、类型或标签，即可快速找到对应详情页。</p>
+    <form class="big-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="例如：剧情、2024、中国大陆、悬疑" aria-label="搜索关键词">
+      <button type="submit">开始搜索</button>
+    </form>
+  </section>
+  <section class="content-section page-shell">
+    <div class="search-status" data-search-status>热门内容</div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="page-shell footer-grid">
+    <div>
+      <a class="footer-brand" href="./index.html">国产精品视频网</a>
+      <p>国产精品视频网提供最新最全的国产影视剧、电影、综艺、动漫在线观看，高清画质，免费播放，是您观看国产精品内容的首选平台。汇聚国产剧情片、动作片、爱情片、科幻片等各类精品影视作品。</p>
+    </div>
+    <div>
+      <h2>热门分类</h2>
+      <div class="footer-links">
+        <a href="./category-movie.html">电影</a>
+        <a href="./category-series.html">剧集</a>
+        <a href="./category-anime.html">动漫</a>
+        <a href="./category-variety.html">综艺</a>
+        <a href="./category-documentary.html">纪录片</a>
+      </div>
+    </div>
+    <div>
+      <h2>题材频道</h2>
+      <div class="footer-links">
+        <a href="./genre-juqing.html">剧情</a>
+        <a href="./genre-xiju.html">喜剧</a>
+        <a href="./genre-xuanyi.html">悬疑</a>
+        <a href="./genre-dongzuo.html">动作</a>
+        <a href="./genre-aiqing.html">爱情</a>
+        <a href="./genre-qihuan.html">奇幻</a>
+        <a href="./genre-jingsong.html">惊悚</a>
+        <a href="./genre-fanzui.html">犯罪</a>
+        <a href="./genre-jiating.html">家庭</a>
+        <a href="./genre-kongbu.html">恐怖</a>
+        <a href="./genre-kehuan.html">科幻</a>
+        <a href="./genre-lishi.html">历史</a>
+      </div>
+    </div>
+    <div>
+      <h2>地区精选</h2>
+      <div class="footer-links">
+        <a href="./region-zhongguodalu.html">中国大陆</a>
+        <a href="./region-meiguo.html">美国</a>
+        <a href="./region-riben.html">日本</a>
+        <a href="./region-zhongguoxianggang.html">中国香港</a>
+        <a href="./region-hanguo.html">韩国</a>
+        <a href="./region-yingguo.html">英国</a>
+        <a href="./region-faguo.html">法国</a>
+        <a href="./region-zhongguotaiwan.html">中国台湾</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
